@@ -1,0 +1,56 @@
+
+.card {
+  padding: 2em;
+}
+main{
+zoom: 0.75; 
+
+
+}
+
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(var(--background))
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7826C9;
+  
+  border-radius: 38px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(var(--primary));
+
+}
+::-webkit-calendar-picker-indicator { filter: invert(50%); }
+
+.ag-theme-quartz {
+  --ag-foreground-color: rgb(var(--foreground)) !important;
+  --ag-background-color: rgb(var(--bars)) !important;
+  --ag-header-foreground-color: rgb(var(--foreground)) !important;
+  --ag-header-background-color: rgb(var(--background)) !important;
+  --ag-header-column-resize-handle-color: rgb(var(--primary)) !important;
+  --ag-font-size: 16px !important;
+  --ag-font-family: 'Poppins',sans-serif !important;
+  --ag-border-color:rgb(var(--border)) !important
+}
+.apexcharts-tooltip { color: black; }
